@@ -66,18 +66,19 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         <div class="post-preview">
-          <a href="post.html">
-            <h2 class="post-title">
-              Man must explore, and this is exploration at its greatest
-            </h2>
-            <h3 class="post-subtitle">
-              Problems look mighty small from 150 miles up
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on September 24, 2019</p>
-        </div>
+          <body>
+            <div id='map'></div>
+            <script>
+            mapboxgl.accessToken = 'pk.eyJ1IjoiZXJvZHJpZ3Vlejc0MiIsImEiOiJjazVpOTl5aDcwMHBwM21wbzE5bWxqMW55In0.o3xJbQTJLQGGSRKzpjVtIQ'; // replace this with your access token
+            var map = new mapboxgl.Map({
+              container: 'map',
+              style: 'mapbox://styles/erodriguez742/ck5ybojwz0uvf1isaujwsisbv', // replace this with your style URL
+              center: [-87.661557, 41.893748],
+              zoom: 10.7
+            });
+            // code from the next step will go here
+            </script>
+          </body>
         <hr>
         <div class="post-preview">
           <a href="post.html">
