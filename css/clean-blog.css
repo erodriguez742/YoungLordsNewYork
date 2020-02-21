@@ -166,18 +166,6 @@ img::-moz-selection {
     /* if the user changes the scrolling direction, we show the header */
     transform: translate3d(0, 100%, 0);
   }
-}
-#map-container {
-    position: relative;
-    height: 180px;
-    width: 600px;
-}
-
-#map {
-    position: relative;
-    height: inherit;
-    width: inherit;
-}
 header.masthead {
   margin-bottom: 50px;
   background: no-repeat center center;
