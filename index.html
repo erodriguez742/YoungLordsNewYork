@@ -71,9 +71,19 @@
   </header>
 
   <!-- Main Content -->
-	  <div class="map-container">
-		 
+	  <div class="map-container">	 
 	  <div id="map"></div>
+		  #map-container {
+    position: relative;
+    height: 180px;
+    width: 600px;
+}
+
+#map {
+    position: relative;
+    height: inherit;
+    width: inherit;
+}
             <script>
             mapboxgl.accessToken = 'pk.eyJ1IjoiZXJvZHJpZ3Vlejc0MiIsImEiOiJjazVpOTl5aDcwMHBwM21wbzE5bWxqMW55In0.o3xJbQTJLQGGSRKzpjVtIQ'; // replace this with your access token
             var map = new mapboxgl.Map({
